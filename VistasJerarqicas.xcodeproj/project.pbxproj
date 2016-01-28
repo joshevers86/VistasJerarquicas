@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		8262632C1C5921E8005821E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8262632B1C5921E8005821E6 /* AppDelegate.swift */; };
-		8262632E1C5921E8005821E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8262632D1C5921E8005821E6 /* ViewController.swift */; };
 		826263311C5921E8005821E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8262632F1C5921E8005821E6 /* Main.storyboard */; };
 		826263341C5921E8005821E6 /* VistasJerarqicas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 826263321C5921E8005821E6 /* VistasJerarqicas.xcdatamodeld */; };
 		826263361C5921E8005821E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 826263351C5921E8005821E6 /* Assets.xcassets */; };
 		826263391C5921E8005821E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 826263371C5921E8005821E6 /* LaunchScreen.storyboard */; };
+		826263411C5924A6005821E6 /* ListaLibrosTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826263401C5924A5005821E6 /* ListaLibrosTVC.swift */; };
+		826263431C592B95005821E6 /* LibroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826263421C592B95005821E6 /* LibroVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		826263281C5921E8005821E6 /* VistasJerarqicas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VistasJerarqicas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8262632B1C5921E8005821E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8262632D1C5921E8005821E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		826263301C5921E8005821E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		826263331C5921E8005821E6 /* VistasJerarqicas.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VistasJerarqicas.xcdatamodel; sourceTree = "<group>"; };
 		826263351C5921E8005821E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		826263381C5921E8005821E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8262633A1C5921E8005821E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		826263401C5924A5005821E6 /* ListaLibrosTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaLibrosTVC.swift; sourceTree = "<group>"; };
+		826263421C592B95005821E6 /* LibroVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibroVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				8262632B1C5921E8005821E6 /* AppDelegate.swift */,
-				8262632D1C5921E8005821E6 /* ViewController.swift */,
 				8262632F1C5921E8005821E6 /* Main.storyboard */,
 				826263351C5921E8005821E6 /* Assets.xcassets */,
 				826263371C5921E8005821E6 /* LaunchScreen.storyboard */,
 				8262633A1C5921E8005821E6 /* Info.plist */,
 				826263321C5921E8005821E6 /* VistasJerarqicas.xcdatamodeld */,
+				826263401C5924A5005821E6 /* ListaLibrosTVC.swift */,
+				826263421C592B95005821E6 /* LibroVC.swift */,
 			);
 			path = VistasJerarqicas;
 			sourceTree = "<group>";
@@ -139,8 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				826263411C5924A6005821E6 /* ListaLibrosTVC.swift in Sources */,
+				826263431C592B95005821E6 /* LibroVC.swift in Sources */,
 				826263341C5921E8005821E6 /* VistasJerarqicas.xcdatamodeld in Sources */,
-				8262632E1C5921E8005821E6 /* ViewController.swift in Sources */,
 				8262632C1C5921E8005821E6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +293,7 @@
 				8262633F1C5921E8005821E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
